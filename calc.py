@@ -1,7 +1,7 @@
 def compute(expression):
     """Compute a simple arithmetic expression."""
     num0, operator, num1 = expression.split(' ')
-    num0 = int(num0)
+    num0 = float(num0)
     num1 = int(num1)
 
     if operator == '+':
